@@ -1,0 +1,57 @@
+\begin{table}
+
+\caption{\label{tab:rob}Robustness of results to alternative specifications (row groups)
+      for each forecast lead (columns). Estimates are benefits of an additional EDD 
+      being correctly forecast (log points). First row group includes
+      another measure of EDD using 32C as a threshold. Second row group includes two
+      additional measures of EDD, using 32C and 34C as thresholds. Third row group
+      drops per-county linear trends, fourth drops main linear and quadratic effects of average maximum temperature,
+      fifth weights observations by acres planted,
+      and the final row group only uses one measure of 
+      each weather variable (temperature, precipitation, their squares, and EDD) per county and year
+      rather than separating exposure by silking vs. non-silking months. 
+      Standard errors clustered two ways by county and year. 
+      Significance indicators: . $<$0.1, * $<$0.05, ** $<$0.01, ***$<$ 0.001.}
+\centering
+\begin{tabular}[t]{llllllll}
+\hline
+\multicolumn{1}{c|}{ } & \multicolumn{7}{c}{Forecast lead} \\
+  & 1 day & 2 days & 3 days & 4 days & 5 days & 6 days & 7 days\\
+\hline
+\multicolumn{8}{l}{\textbf{Include $>$32C EDD}}\\
+\hline
+\hspace{1em}Silking & 0.0013 & 0.0031 & 0.0027 & 0.0007 & 0.0023 & 0.0001 & 0.0011\\
+\hspace{1em} & (0.0031) & (0.0033) & (0.0030) & (0.0026) & (0.0027) & (0.0025) & \vphantom{1} (0.0023)\\
+\hspace{1em}Non-silking & 0.0013 & 0.0010 & -0.0002 & 0.0007 & -0.0004 & 0.0010 & 0.0009\\
+\hspace{1em} & (0.0015) & (0.0013) & (0.0013) & (0.0012) & (0.0013) & (0.0013) & \vphantom{1} (0.0012)\\
+\multicolumn{8}{l}{\textbf{Include $>$32C EDD and $>$34C EDD}}\\
+\hline
+\hspace{1em}Silking & 0.0014 & 0.0033 & 0.0028 & 0.0008 & 0.0024 & 0.0002 & 0.0012\\
+\hspace{1em} & (0.0031) & (0.0033) & (0.0030) & (0.0026) & (0.0027) & (0.0025) & (0.0023)\\
+\hspace{1em}Non-silking & 0.0013 & 0.0010 & -0.0002 & 0.0007 & -0.0003 & 0.0010 & 0.0010\\
+\hspace{1em} & (0.0015) & (0.0013) & (0.0013) & (0.0012) & (0.0013) & (0.0013) & (0.0012)\\
+\multicolumn{8}{l}{\textbf{No per-county linear trends}}\\
+\hline
+\hspace{1em}Silking & 0.0027 & 0.0037 & 0.0030 & 0.0003 & 0.0017 & -0.0006 & 0.0009\\
+\hspace{1em} & (0.0030) & (0.0030) & (0.0026) & (0.0024) & (0.0025) & (0.0024) & (0.0022)\\
+\hspace{1em}Non-silking & -0.0008 & -0.0002 & -0.0011 & -0.0001 & -0.0011 & 0.0003 & -0.0001\\
+\hspace{1em} & (0.0015) & (0.0012) & (0.0012) & (0.0011) & (0.0013) & (0.0013) & (0.0011)\\
+\multicolumn{8}{l}{\textbf{No main effects of average daily max temperature}}\\
+\hline
+\hspace{1em}Silking & 0.0017 & 0.0037 & 0.0033 & 0.0013 & 0.0029 & 0.0008 & 0.0018\\
+\hspace{1em} & (0.0030) & (0.0033) & (0.0029) & (0.0025) & (0.0026) & (0.0025) & (0.0023)\\
+\hspace{1em}Non-silking & 0.0008 & 0.0007 & -0.0003 & 0.0006 & -0.0004 & 0.0009 & 0.0009\\
+\hspace{1em} & (0.0015) & (0.0013) & (0.0013) & (0.0012) & (0.0013) & (0.0014) & (0.0013)\\
+\multicolumn{8}{l}{\textbf{Weighted by corn acres planted}}\\
+\hline
+\hspace{1em}Silking & 0.0040 & 0.0061 & 0.0067. & 0.0032 & 0.0037 & 0.0014 & 0.0021\\
+\hspace{1em} & (0.0032) & (0.0044) & (0.0038) & (0.0037) & (0.0039) & (0.0036) & (0.0035)\\
+\hspace{1em}Non-silking & -0.0002 & -0.0000 & -0.0012 & -0.0002 & -0.0008 & 0.0004 & 0.0003\\
+\hspace{1em} & (0.0015) & (0.0013) & (0.0013) & (0.0014) & (0.0018) & (0.0018) & (0.0015)\\
+\multicolumn{8}{l}{\textbf{No intraseasonal heterogeneity}}\\
+\hline
+\hspace{1em}Full year & 0.0007 & 0.0013 & 0.0008 & 0.0008 & 0.0004 & 0.0005 & 0.0008\\
+\hspace{1em} & (0.0012) & (0.0013) & (0.0013) & (0.0011) & (0.0011) & (0.0011) & (0.0010)\\
+\hline
+\end{tabular}
+\end{table}
